@@ -1,16 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Google Trends Comparison</title>
 
   <style>
     html, body {
       margin: 0;
       padding: 0;
-      background: #ffffff;
       width: 100%;
+      background: #ffffff;
       overflow-x: hidden;
+    }
+
+    body {
+      padding: 8px;
+      box-sizing: border-box;
     }
   </style>
 </head>
@@ -36,13 +43,23 @@ trends.embed.renderExploreWidget(
         "keyword": "hatchbox",
         "geo": "",
         "time": "today 12-m"
+      },
+      {
+        "keyword": "colorFabb",
+        "geo": "",
+        "time": "today 12-m"
+      },
+      {
+        "keyword": "kexcelled",
+        "geo": "",
+        "time": "today 12-m"
       }
     ],
     "category": 0,
     "property": ""
   },
   {
-    "exploreQuery": "q=inslogic,hatchbox&date=today 12-m",
+    "exploreQuery": "q=inslogic,hatchbox,colorFabb,kexcelled&hl=en&date=today 12-m",
     "guestPath": "https://trends.google.com:443/trends/embed/"
   }
 );
